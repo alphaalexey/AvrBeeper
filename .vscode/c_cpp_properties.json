@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Build",
+            "includePath": [
+                "/usr/lib/avr/include"
+            ],
+            "browse": {
+                "path": []
+            },
+            "defines": [
+                "F_CPU=12000000UL",
+                "__AVR_ATtiny2313A__"
+            ],
+            "compilerPath": "/usr/bin/avr-gcc",
+            "compilerArgs": [],
+            "cStandard": "c11",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "${default}",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
